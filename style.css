@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Red Hat Display', sans-serif;;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(222,28%,29%);
 }
 
 body {
@@ -15,7 +16,9 @@ body {
 }
 
 p {
-    color: hsl(223,10%,57%)
+    color: hsl(223,10%,57%);
+    line-height: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .container {
@@ -33,26 +36,68 @@ p {
 }
 
 .inner-container {
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
 h1 {
-    margin: 1rem 0;
+    margin: 2rem 0 1.5rem 0;
     font-size: 1.8rem;
     font-weight: 900;
-    color: hsl(221,50%,23%);
 }
 
 .order {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 0.8rem;
+    padding: 1.5rem 1.5rem;
+    margin: 1.5rem 0 2rem 0;
 }
 
 .plan {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: 900;
+    margin-bottom: 0.3rem;
+}
+
+.plan-details{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+a{
+    color:hsl(243,50%,43%);
+    font-weight: 700;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    padding: 1rem 0;
+    text-decoration: none;
+    border-radius: 1rem;
+    font-weight: 900;
+    font-size: 0.95rem;
+    margin: 1rem auto;
+    width: 100%;
+}
+
+.btn-blue {
+    background-color: hsl(245,75%,52%);
+    color: #fff;
+    box-shadow: 0 20px 20px hsl(225, 100%, 94%);
+}
+
+.btn-white {
+    color: hsl(231,14%,56%);
 }
