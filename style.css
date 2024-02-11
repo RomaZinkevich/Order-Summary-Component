@@ -9,10 +9,11 @@
 }
 
 body {
-    background-color: hsl(224,100%,92%);
     height: 100vh;
     display: flex;
     align-items: center;
+    background: url('images/pattern-background-desktop.svg') repeat-x center -10%;
+    background-color: #e1e9ff;
 }
 
 p {
